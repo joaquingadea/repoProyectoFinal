@@ -36,6 +36,8 @@ nav{
     background: var(--color-principal);
     justify-content: space-between;
     padding: 15px;
+    /* width: 100%;
+    position: fixed; */
 }
 .unic-svg{
     background-color: var(--color-principal);
@@ -298,6 +300,7 @@ nav{
 /* #bar-rep_pause:hover{
     background: #b7b098;
 } */
+
 .contenedor_soltar123{
     display: flex;
     justify-content: center;
@@ -311,7 +314,7 @@ nav{
     padding: 40px;
     gap: 20px;
 }
-.cont-juguemos_img > img{
+.juguemos_img{
     height:500px ;
     width:300px ;
 }
@@ -328,4 +331,32 @@ nav{
     text-align: center;
     margin:  240px auto ;
     color: #E6DDC4;
+}
+.contenedor-todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.button-reset{
+    text-decoration: none;
+    background: #E6DDC4;
+    padding: 10px;
+    box-shadow: 3px 3px #678983;
+    border-radius: 10px;
+    color: var(--color-principal);
+    margin: 0 auto ;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 20px;
+    /* color: #000000; */
+    
+}
+.button-reset:active{
+    transform: translate(3px,3px);
+    box-shadow: none;
+    background:#bcb5a1 ;
+}
+.none{
+    display: none;
 }
